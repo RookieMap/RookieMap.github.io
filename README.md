@@ -16,7 +16,7 @@
 
 - 可以将想要更新的内容发送到[维护人员的邮箱](mailto:yangyywl@gmail.com)。
 
-- 更加直接的方式，是点击本站右上角的图标，进入本站的 [Github 仓库](https://github.com/NKUSE-ICU/NKUSE.ICU)，以 Pull Request 的方式（fork->update->pr），提交你对本站内容的改进。
+- 更加直接的方式，是点击本站右上角的图标，进入本站的 [Github 仓库](https://github.com/RookieMap/RookieMap.github.io)，以 Pull Request 的方式（fork->update->pr），提交你对本站内容的改进。
 
   如果你希望长期参与本站的建设，可以联系建站者，成为本站的维护人员，**长期招募**（由于建站者纯粹是为爱发电，网站前景未知，故暂时不提供薪酬）。
 
