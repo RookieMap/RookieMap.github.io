@@ -26,7 +26,7 @@
         - [性能调优工具](/experiment/experiment_tools/perf_tun_tools)
 - [写作能力](/writing/)
     - [English Writing](/writing/english_writing)
-    - [LaTeX](/writing/LaTeX)
+    - [LaTeX](/writing/LaTeX/)
       - [基本资源](/writing/LaTeX/AwesomeLaTeX)
       - [学术写作常用包](/writing/LaTeX/pkg)
     - [画图](/writing/drawing)
