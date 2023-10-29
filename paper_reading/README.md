@@ -6,9 +6,9 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体模块的信息：
 
-- [Google scholar](./google_scholar)
-- [arxiv](./arxiv)
-- [会议列表及主页](./conferences)
-- [作者主页](./authors)
+- [Google scholar](/paper_reading/google_scholar)
+- [arxiv](/paper_reading/arxiv)
+- [会议列表及主页](/paper_reading/conferences)
+- [作者主页](/paper_reading/authors)
 
 如果您有想要额外分享的信息资源或希望了解的模块，欢迎在下方评论区留言，网站维护者会在第一时间看到，且会酌情将其作为新的模块加入⚡️
