@@ -1,5 +1,15 @@
 # 性能调优工具profiler等
 
-本页面暂无内容，期待大家的共同建设\~🔥
+## 效率调优工具
 
-如果你愿意提供任何信息、资源或观点，请在下方评论区留言，网站维护者会在第一时间看到，且会酌情将其添加为本页面的内容⚡️
+Profiler
+
+
+## 效果调优类工具
+
+最简单暴力的就是自己写循环，用python或者shell做grid search，对learning rate、dropout、emb size，layer层数等各种hyper parameters在validation set上做验证，选择最佳参数
+
+更高效的方法则是利用`optuna`等自动调优工具
+
+### optuna
+
