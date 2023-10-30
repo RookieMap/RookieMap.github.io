@@ -220,6 +220,7 @@ example gallery
 ## Review
 
 * [changes](https://ctan.org/pkg/changes?lang=en): LaTeX 标注宏包，实现highlights, additions, deletions, or replacements等标记操作，具体可看文档，可以设置修改者标识。可用于跟踪文档的更改和修订，特别是在合作项目中，可以生成更改的摘要列表，方便查看所有的更改和修订。
+
 ```tex
 \usepackage[commandnameprefix=ifneeded, todonotes={textsize=tiny}]{changes} %commentmarkup=margin
 \usepackage{changes} %final
@@ -230,6 +231,7 @@ example gallery
 ```
 
 * [pdfcomment](https://ctan.org/pkg/pdfcomment?lang=en): A user-friendly interface to pdf annotations, 主要侧重于实现各种comments形式，提供了许多选项来自定义注释的外观和行为，需要注意主要针对Adobe Reader开发，不同的reader软件，看到的效果可能有差异。
+
 ```tex
 \usepackage{pdfcomment}
 \defineavatar{SF}{icon=Comment, color=red, author={Fei Sun}}
@@ -248,6 +250,7 @@ example gallery
 * **todonotes**: 
 * **marginnote**:
 * **acronym**:
+
 ```TeX
 \usepackage[printonlyused,withpage]{acronym}
 
