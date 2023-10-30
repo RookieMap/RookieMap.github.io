@@ -162,6 +162,7 @@ A & B \\
 
 ### 代码
 * **[listings](https://ctan.org/pkg/listings?lang=en)**: 排版源码最常用的基础包之一 
+
 ```tex
 \usepackage{listings}
 \usepackage{xcolor}
@@ -178,6 +179,7 @@ def function(x):
     return x + 1
 \end{lstlisting}
 ```
+
 * **[minted](https://ctan.org/pkg/minted?lang=en)**: a LaTeX package that facilitates expressive syntax highlighting using the Pygments library. 提供了非常多的语言支持和更漂亮的默认样式。需要使用 -shell-escape 选项编译 LaTeX 文档，因为它依赖于外部工具，但也可以设置使用`fancyvrb`输出。 https://github.com/gpoore/minted 
 * **[pythontex](https://github.com/gpoore/pythontex)**: 这个包和`minted`包是一个作者，可以用于在LaTeX中执行python代码并展示结果，也可以高亮code。可以用在数据可视化、动态计算结果、自动化报告场景。
 
