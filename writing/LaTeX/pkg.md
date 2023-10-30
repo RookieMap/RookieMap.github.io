@@ -205,16 +205,12 @@ def function(x):
 
 ### Tikz/PGF
 
-
-
 example gallery
 * [tikz_favorites gitbhu](https://f0nzie.github.io/tikz_favorites/)
-* 
-
 * https://github.com/nschloe/tikzplotlib
 
-
 `tcolorbox`
+
 `fancyvrb`
 
 ## Review
