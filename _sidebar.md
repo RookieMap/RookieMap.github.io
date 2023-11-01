@@ -13,6 +13,7 @@
         - [Vim](/experiment/code_tools/Vim)
         - [Emacs](/experiment/code_tools/Emacs)
         - [PyCharm](/experiment/code_tools/PyCharm)
+    - [Git 使用](/experiment/git)
     - [python](/experiment/python/)
         - [代码规范性](/experiment/python/code_specifications)
         - [环境管理 conda 类工具](/experiment/python/environment_management)

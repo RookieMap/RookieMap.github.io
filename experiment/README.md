@@ -10,6 +10,7 @@
 
 - [Linux / Unix](/experiment/os/)
 - [code 工具](/experiment/code_tools/)
+- [Git 使用](/experiment/git)
 - [python](/experiment/python/)
 - [实验相关工具](/experiment/experiment_tools/)
 
