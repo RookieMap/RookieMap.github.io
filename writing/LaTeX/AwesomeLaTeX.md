@@ -1,5 +1,7 @@
 # Awesome LaTeX
 
+Author: [@FeiSun](https://github.com/FeiSun)
+
 > This is a curated list of awesome stuff for the [(La)TeX typesetting system](https://www.latex-project.org/).
 
 ## Distributions

@@ -1,5 +1,7 @@
 # some useful packages for academic writing
 
+Author: [@FeiSun](https://github.com/FeiSun)
+
 LaTeX写作中常用到的包
 
 
