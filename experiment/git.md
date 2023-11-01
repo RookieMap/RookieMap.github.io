@@ -5,7 +5,7 @@ Author: [@Reed Qiuu](https://github.com/Iri-sated)
 ### Why Git?
 Git是一个版本控制系统，用于跟踪和管理项目代码的变化。它允许多个开发人员协同工作，并提供了对代码进行版本控制、分支管理和合并等功能的支持。
 > 参考阅读：
-> https://zhuanlan.zhihu.com/p/653977584
+> https://zhuanlan.zhihu.com/p/653977584  
 > https://www.bilibili.com/video/BV1MU4y1Y7h5/
 
 ---
