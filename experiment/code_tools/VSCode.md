@@ -2,6 +2,8 @@
 
 Author: [@FeiSun](https://github.com/FeiSun) & [@RuichenQiu](https://github.com/Iri-sated) with the help of ChatGPT
 
+## VS code介绍
+
 ## VS code 常用插件安利
 
 ### General
@@ -34,8 +36,8 @@ Author: [@FeiSun](https://github.com/FeiSun) & [@RuichenQiu](https://github.com/
    - *推荐理由*：这有助于维护一个清晰、一致的代码基础，对于团队协作尤其重要。
 
 2. **Black Formatter**
-   - *简介*：Prettier是一个流行的代码格式化工具，可以自动格式化你的代码，确保代码风格的一致性。
-   - *推荐理由*：这有助于维护一个清晰、一致的代码基础，对于团队协作尤其重要。
+   - *简介*：Black Formatter是一个代码格式化插件，基于Python的“[`Black`](https://github.com/psf/black)”代码格式化工具。它自动格式化Python代码，使其符合PEP 8风格指南。
+   - *推荐理由*：对于Python开发者来说，这个插件非常有用，因为它能够确保代码风格的一致性，提高代码的可读性和维护性。自动化的格式化过程也可以节省开发者的时间，避免在代码审查中对格式风格的讨论，让开发者更专注于代码逻辑和功能开发。
 
 ### Python相关
 
