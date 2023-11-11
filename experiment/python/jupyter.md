@@ -19,7 +19,7 @@ Author: [@RuichenQiu](https://github.com/Iri-sated) & [@FeiSun](https://github.c
 
 1. 确保已安装Python和pip。
 
-2. 通过pip或者conda安装Jupyter Lab：
+2. 通过pip或者conda安装Jupyter Lab（conda通常在base环境下已安装）：
 
    ``` bash
    pip install jupyterlab
@@ -31,6 +31,18 @@ Author: [@RuichenQiu](https://github.com/Iri-sated) & [@FeiSun](https://github.c
    ```
 一般需要指定监听ip为`0.0.0.0`，不然远程服务器上启动的jupyter，本地可能打不开。
 根据程序输出log信息中提示，一般可在浏览器中访问`http://127.0.0.1:XXXX`或`http://localhost:XXXX`，其中XXXX是上面设置的端口号。上面的ip，如果是远程服务器的，修改为对应的服务器ip，前提是端口已开放，或者通过ssh方式中转。
+
+4. 对于conda用户，如果想在Jupyter Lab切换不同的虚拟环境，需要:
+   1. 先在base环境下安装nb_conda_kernels
+   ``` bash
+   conda activate base 
+   conda install nb_conda_kernels
+   ```
+   2. 在需要的环境[ENV]下安装ipykernel
+   ``` bash
+   conda activate [ENV]
+   conda install ipykernal
+   ```
 
 
 ## 配置
@@ -98,13 +110,13 @@ ssh -C -N -f -L local_port:localhost:remote_jupyter_port username@remote_server_
 
 需要将 `local_port` 替换为希望在本地机器上用来访问 Jupyter Lab 的端口，`remote_jupyter_port` 替换为远程服务器上 Jupyter Lab实际运行的端口，`username` 替换为远程服务器上的用户名，而 `remote_server_ip` 替换为远程服务器的 IP 地址。
 
-例如，如果用户名是 `qiuruichen`，远程服务器的 IP 是 `10.208.61.133`，并且您想要在本地机器的 `7799` 端口访问 Jupyter，命令将是：
+例如，如果用户名是 `[USERNAME]`，远程服务器的 IP 是 `[REMOTE_IP]`，并且您想要在本地机器的 `[PORT_ID]` 端口访问 Jupyter，命令将是：
 
 ```sh
-ssh -C -N -f -L 7799:127.0.0.1:7799 qiuruichen@10.208.61.133
+ssh -C -N -f -L [PORT_ID]:127.0.0.1:[PORT_ID] [USERNAME]@[REMOTE_IP]
 ```
 
-运行此命令后，只要 SSH 隧道处于活动状态，就可以在本地机器上通过访问 `http://127.0.0.1:7799` 来使用 Jupyter Notebook。
+运行此命令后，只要 SSH 隧道处于活动状态，就可以在本地机器上通过访问 `http://127.0.0.1:[PORT_ID]` 来使用 Jupyter Notebook。
 
 
 #### frpc 配置
@@ -117,8 +129,8 @@ ssh -C -N -f -L 7799:127.0.0.1:7799 qiuruichen@10.208.61.133
 [jupyterlab_[SERVER_NAME]_[YOURNAME]]
 type = stcp
 sk = [sk] # token密码
-local_ip = 10.208.61.133  # 如果是在机器上进行了ssh转发，则这里直接改为127.0.0.1
-local_port = 7799
+local_ip = [REMOTE_IP]  # 如果是在机器上进行了ssh转发，则这里直接改为127.0.0.1
+local_port = [PORT_ID]
 use_encryption = true
 use_compression = true
 ```
@@ -130,7 +142,7 @@ use_compression = true
 type = stcp
 role = visitor
 server_name = jupyterlab_[SERVER_NAME]_[YOURNAME] # 这个名字需要于远程内网机器上运行的配置名一致
-sk = [SK]
+sk = [sk] # token密码
 bind_addr = 127.0.0.1
 bind_port = [PORT_ID]
 use_encryption = true
