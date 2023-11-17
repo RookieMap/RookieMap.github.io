@@ -19,7 +19,7 @@ Author: [@RuichenQiu](https://github.com/Iri-sated) & [@FeiSun](https://github.c
 
 1. 确保已安装Python和pip。
 
-2. 通过pip或者conda安装Jupyter Lab（conda通常在base环境下已安装）：
+2. 通过pip或者conda安装Jupyter Lab（若使用conda，通常在base环境下已安装Jupyter Lab）：
 
    ``` bash
    pip install jupyterlab
@@ -29,8 +29,9 @@ Author: [@RuichenQiu](https://github.com/Iri-sated) & [@FeiSun](https://github.c
    ``` bash
    jupyter lab --port=XXXX --ip=0.0.0.0 --no-browser
    ```
-一般需要指定监听ip为`0.0.0.0`，不然远程服务器上启动的jupyter，本地可能打不开。
-根据程序输出log信息中提示，一般可在浏览器中访问`http://127.0.0.1:XXXX`或`http://localhost:XXXX`，其中XXXX是上面设置的端口号。上面的ip，如果是远程服务器的，修改为对应的服务器ip，前提是端口已开放，或者通过ssh方式中转。
+   + 一般需要指定监听ip为`0.0.0.0`，不然远程服务器上启动的jupyter，本地可能打不开。
+   + 根据程序输出log信息中提示，一般可在浏览器中访问`http://127.0.0.1:XXXX`或`http://localhost:XXXX`，其中XXXX是上面设置的端口号。上面的ip，如果是远程服务器的，修改为对应的服务器ip，前提是端口已开放，或者通过ssh方式中转。
+   + 推荐在tmux中运行该命令，让Jupyter Lab一直启动运行，每次做实验连接进lab即可。
 
 4. 对于conda用户，如果想在Jupyter Lab切换不同的虚拟环境，需要:
    1. 先在base环境下安装nb_conda_kernels
@@ -41,7 +42,7 @@ Author: [@RuichenQiu](https://github.com/Iri-sated) & [@FeiSun](https://github.c
    2. 在需要的环境[ENV]下安装ipykernel
    ``` bash
    conda activate [ENV]
-   conda install ipykernal
+   conda install ipykernel
    ```
 
 
@@ -67,7 +68,7 @@ Verify password:
 Out[2]: 'argon2:xxxxxxx:xxxxxxxx'
 ```
 
-或者
+或者用如下较为简便的方式设置密码
 
 ``` bash
 jupyter lab password
@@ -121,7 +122,7 @@ ssh -C -N -f -L [PORT_ID]:127.0.0.1:[PORT_ID] [USERNAME]@[REMOTE_IP]
 
 #### frpc 配置
 
-当然上面是在实验室内网的用法。如果是在计算所外面，走frp的时候，则需要在中转机器上执行这个命令，然后在机器上的frpc配置文件中加上对应的配置，就跟正常ssh差不多使用了。
+当然上面是在实验室内网的用法。如果是在实验室外，走frp的时候，则需要在中转机器上执行这个命令，然后在机器上的frpc配置文件中加上对应的配置，就跟正常ssh差不多使用了。
 
 内部运行frpc的机器上的配置文件，加入:
 
@@ -197,7 +198,7 @@ pip install plotly==5.18.0
 # or conda
 conda install -c plotly plotly=5.18.0
 ```
-更方面的使用，可能是安装[`jupyter-dash`](https://github.com/plotly/jupyter-dash)。
+更方便的使用方法是安装[`jupyter-dash`](https://github.com/plotly/jupyter-dash)。
 
 
 ### 常见问题配置
