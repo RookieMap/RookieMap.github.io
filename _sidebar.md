@@ -7,7 +7,7 @@
 - [实验能力](/experiment/)
     - [Linux / Unix](/experiment/os/)
         - [shell](/experiment/os/shell)
-            - [zsh](/experiment/os/zsh.md)
+        - [zsh详解](/experiment/os/zsh)
         - [ssh 等工具](/experiment/os/tools)
     - [code 工具](/experiment/code_tools/)
         - [VS Code](/experiment/code_tools/VSCode)
