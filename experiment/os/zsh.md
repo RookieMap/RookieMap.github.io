@@ -160,7 +160,7 @@ jupyter lab --generate-config
 ```
 然后，在生成的`jupyter_lab_config.py`文件中，将相应行改为：
 ``` python
-c.ServerApp.terminado_settings = {'shell_command': ['/bin/bash']}
+c.ServerApp.terminado_settings = {'shell_command': ['/bin/zsh']}
 ```
 注意，上面两个更改都要在`tmux`和`Jupyter Lab`关闭所有窗口重新启动后才会生效。
 
