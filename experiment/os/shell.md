@@ -7,6 +7,16 @@ Author: [@Wanli Yang](https://github.com/wending0417)
 ## bash
 
 ## zsh
+`zsh`全名为Z-Shell，它与`bash`相比，能力更加强大并且更快。相较于`bash`，`zsh`现在社区更加活跃，是一个还在成长中的项目。具体来讲有这些优势:
++ 更优秀的命令行补全能力；
++ 配置化能力更强；
++ 更现代的语法；
++ 改进的错误报告；
++ 模拟`bash`；
++ 用户社区不断壮大，更新频繁；
++ 体验更好的按键;
++ 支持vi模式等
+[点击这里](/experiment/os/zsh.md)查看如何在服务器上配置`zsh`。
 
 ## fish
 
