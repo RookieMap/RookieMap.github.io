@@ -107,7 +107,7 @@ git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 安装完成后，你会看到下面这个酷炫的界面。
-![](<截屏2023-12-08 10.47.49.png>)
+![](zsh_1.png)
 
 ##### 主题
 在`.zshrc`中修改，其中`THEME_NAME`为你想要的主题名字
@@ -135,7 +135,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```
 下图分别展示了未开启高亮，合法语句`source`，存在的文件`./.zshrc`和非法语句`cccccc`展示出的效果。
 
-![](image.png)
+![](zsh_2.png)
 
 - **自动补全**：使用的时候，按键盘的→即可自动补全
 ``` bash
@@ -143,7 +143,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 下图展示了补全前的效果。
 
-![](image-1.png)
+![](zsh_3.png)
 
 ---
 ### zsh可能导致的问题及解决方案
