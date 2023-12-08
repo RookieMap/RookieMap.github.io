@@ -16,6 +16,7 @@ Author: [@Wanli Yang](https://github.com/wending0417)
 + 用户社区不断壮大，更新频繁；
 + 体验更好的按键;
 + 支持vi模式等
+
 [点击这里](/experiment/os/zsh.md)查看如何在服务器上配置`zsh`。
 
 ## fish
