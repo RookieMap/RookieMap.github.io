@@ -30,7 +30,7 @@ Conda 是一个开源的跨平台包管理系统和环境管理系统，用于�
 
 ``` bash
 #如:“/data22/public/tools/目录下有anaconda的安装脚本”
-cd /data22/public/tools/
+>>cd /data22/public/tools/
 ```
 用ls命令确认是否有conda安装包
 ``` bash
@@ -42,7 +42,8 @@ cd /data22/public/tools/
 ```bash
 >>bash Anaconda3-2023.09-0-Linux-x86_64.sh
 ```
-一直按enter键 直到出现Do you accept the license terms? [yes|no] （注意不要按过头了）
+
+一直按enter键 直到出现Do you accept the license terms? [yes|no] *（注意不要按过头了）*
 输入>>yes
 Anaconda3 will now be installed into this location:
 /home/pujiayue/anaconda3
