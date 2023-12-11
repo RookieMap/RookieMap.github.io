@@ -121,5 +121,9 @@ Conda 是一个开源的跨平台包管理系统和环境管理系统，用于�
 >>conda install ipykernel
 >>conda install ipywidgets
 ```
+### 4. 安装transformer
+```bash
+>>conda install -c huggingface transformers
+```
 
 如果你愿意提供任何信息、资源或观点，请在下方评论区留言，网站维护者会在第一时间看到，且会酌情将其添加为本页面的内容⚡️
