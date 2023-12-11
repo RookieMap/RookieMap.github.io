@@ -24,7 +24,7 @@ Conda 是一个开源的跨平台包管理系统和环境管理系统，用于�
 
 总的来说，Conda 是一个功能强大的包管理和环境管理工具，适用于各种编程语言和领域。它简化了软件包的安装和管理过程，并提供了灵活的环境隔离和管理选项。无论是在个人项目中还是在团队合作中，Conda 都是一个有用的工具，可以帮助你管理软件包依赖关系和创建一致的开发环境。
 
-## 安装conda
+## 安装conda ##
 
 以下为在远程服务器上安装conda的详细步骤 <br />
 以133服务器的2219端口为例
@@ -91,17 +91,21 @@ Conda 是一个开源的跨平台包管理系统和环境管理系统，用于�
     deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
   ```
 
-### 5.安装pytorch ###
+## 其余配置 ##
+
+### 1.安装pytorch ###
+在base环境中执行以下命令行
   ```bash
   >>conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
   ```
 
+### 2.指定Hugging Face库的安装路径 ###
   在.bashrc中设置HF_HOME`HF_HOME(用于指定Hugging Face模型和缓存文件的默认根目录)
   ```bash
   >>vim ./.bashrc
   ```
 
-  在文件最后插入
+  在文件最后插入（按i进入编辑模式）
   ```bash
   export HF_HOME="/data/public/huggingface"
   ```
@@ -111,11 +115,11 @@ Conda 是一个开源的跨平台包管理系统和环境管理系统，用于�
   ```bash
   >>source ./.bashrc
   ```
-
-就可以新建conda环境了！
-
-
-<br>
-
+### 3. Jupyter Notebook相关包 ###
+```bash
+>>conda install nb_conda_kernels
+>>conda install ipykernel
+>>conda install ipywidgets
+```
 
 如果你愿意提供任何信息、资源或观点，请在下方评论区留言，网站维护者会在第一时间看到，且会酌情将其添加为本页面的内容⚡️
