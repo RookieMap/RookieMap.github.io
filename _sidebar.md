@@ -26,6 +26,7 @@
         - [结果可视化](/experiment/experiment_tools/visualization)
         - [plotting 工具：matplotlib, seaborn 等](/experiment/experiment_tools/plotting_tools)
         - [性能调优工具](/experiment/experiment_tools/perf_tun_tools)
+    - [基础实验指南](/experiment/experiment_guidelines)
 - [写作能力](/writing/)
     - [English Writing](/writing/english_writing)
     - [LaTeX](/writing/LaTeX/)
