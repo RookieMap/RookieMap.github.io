@@ -1,5 +1,7 @@
 # 以resnet18分类cifar10为例，训练一个神经网络
 ### ——早期人类驯服神经网络实录
+Author: [@Reed Qiuu](https://github.com/Iri-sated)
+
 本实验基本设置如下：
 + 用`resnet18`网络分类`cifar10`
 + 超参数通过`optuna`搜索调整，选择最好的结果
