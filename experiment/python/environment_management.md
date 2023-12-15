@@ -1,6 +1,6 @@
 # 环境管理 conda 类工具
 
-Author: [@pujiayue](https://github.com/pujiayue)
+Author: [@pujiayue](https://github.com/pujiayue) with the guidance of @[@FeiSun](https://github.com/FeiSun).
 
 
 以下是对环境管理conda类的介绍、安装步骤以及常见问题的配置的补充：
