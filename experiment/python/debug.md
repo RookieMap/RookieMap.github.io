@@ -1,6 +1,8 @@
 # 代码调试
 
 ## pdb
+**Author**: [@Jiajun](https://github.com/Sumsky21)
+
 > [pdb --- Python 的调试器 — Python 3.12.0 文档](https://docs.python.org/zh-cn/3/library/pdb.html)  
 - python的很有用的调试器
 - 在代码内（侵入式）设置断点
