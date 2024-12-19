@@ -5,7 +5,7 @@
 
 请根据侧边栏的导航信息，或下述列表，查看具体模块的信息：
 
-- [Matplotlib](/writing/drawing/matplotlib.md)
+- [Matplotlib](/writing/drawing/Matplotlib.md)
 - [Tikz](/writing/drawing/tikz.md)
 
 如果您有想要额外分享的信息资源或希望了解的模块，欢迎在下方评论区留言，

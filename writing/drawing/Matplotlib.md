@@ -1,3 +1,6 @@
+# Matplotlib
+Author: [@Reed Qiuu](https://github.com/Iri-sated) [@Xun Liu](https://github.com/AntiQuality)
+
 ## 画图前的准备
 #### 字体
 在规范论文写作中，通常绘制矢量图（使用pdf格式导出），选取 Times New Roman 字体并将字体嵌入。
