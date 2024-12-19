@@ -43,7 +43,7 @@ cmap_name = "custom_cmap"
 custom_cmap = LinearSegmentedColormap.from_list(cmap_name, colors)
 ```
 
-![](img/color.pdf)
+![](img/color.png)
 
 ## 基本设置
 #### 图的创建与组图的布局
@@ -71,7 +71,7 @@ axs3 = fig.add_subplot(gs[1:, 10:])
 
 上述代码最终实现为下图，留出了最上方红色的公共空间，并在每个子图之间保留了白色的空隙。
 *注：下图也是用`matplotlib`绘制，可通过`imshow`实现。*
-![](img/gridspec.pdf)
+![](img/gridspec.png)
 
 #### 子图的基本元素
 针对不同的图片场景，我们通常设置不同的图片基本元素。
@@ -85,7 +85,7 @@ def GRID_SET_VOID(axs):
 	axs.set_axisbelow(True)
 ```
 
-![](img/grid.pdf)
+![](img/grid.png)
 
 ##### 背景颜色
 一般设置为白色
@@ -115,7 +115,7 @@ def AXS_REMOVE_VOID(axs):
 	axs.xaxis.set_visible(False)
 ```
 
-![](img/frame.pdf)
+![](img/frame.png)
 
 ## 开工！画图
 #### 常用画图函数
@@ -197,7 +197,7 @@ fig.legend(handles,          # 每个图上的“元素”，如点、线、柱�
 3. `scatter`和`plot`函数的绘图：颜色、点样式、点大小
 4. 坐标轴的设置：坐标轴范围、刻度和标签，子图的标题
 5. 在预留空间布置全局图例
-![](img/example.pdf)
+![](img/example.png)
 
 #### 导出
 视情况为图片添上标题。通常将图片导出为`pdf`格式来获得矢量图。
