@@ -107,6 +107,7 @@ Compiling LaTeX documents can be tedious, build tools help you to manage the com
 * [The (Not So) Short Introduction to LaTeX2e](https://mirrors.ctan.org/info/lshort/english/lshort.pdf) - Very comprehensive introduction to LaTeX.
 * [TEX by Topic](http://mirrors.ctan.org/info/texbytopic/TeXbyTopic.pdf) - The book describes itself as “a TEXnician’s reference”, and covers the way TEX (the engine) works in as much detail as most ordinary TEX programmers will ever need to know.
 * [TeX for the Impatient](http://mirrors.ctan.org/info/impatient/cn/cnbook.pdf) -  a handbook that arose from the need to help technical writers learn TEX more quickly.
+* [Beamer v3.0 Guide](https://www.math.kent.edu/~malexand/Latex/Guides/beamer_guide.pdf) - 比较详细的 Beamer 入门指南 
 
 ## Social media
 
