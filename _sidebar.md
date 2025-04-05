@@ -40,6 +40,7 @@
     - [poster](/report_sharing/poster)
 - [NLP入门](/nlp/)
     - [基本论文](/nlp/papers.md)
+- [基础学习资料](/transformer/)
 - [Misc](/misc/)
     <!-- - [拓展social圈](/misc/social)
     - [扩展研究以外的兴趣](/misc/interest) -->
