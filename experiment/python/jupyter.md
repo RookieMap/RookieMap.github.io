@@ -76,7 +76,7 @@ jupyter lab password
 > Verify password:
 ```
 
-## Jupyter服务器配置（frpc版）
+## Jupyter服务器配置
 
 ### 端口配置
 
@@ -118,42 +118,6 @@ ssh -C -N -f -L [PORT_ID]:127.0.0.1:[PORT_ID] [USERNAME]@[REMOTE_IP]
 ```
 
 运行此命令后，只要 SSH 隧道处于活动状态，就可以在本地机器上通过访问 `http://127.0.0.1:[PORT_ID]` 来使用 Jupyter Notebook。
-
-
-#### frpc 配置
-
-当然上面是在实验室内网的用法。如果是在实验室外，走frp的时候，则需要在中转机器上执行这个命令，然后在机器上的frpc配置文件中加上对应的配置，就跟正常ssh差不多使用了。
-
-内部运行frpc的机器上的配置文件，加入:
-
-```sh
-[jupyterlab_[SERVER_NAME]_[YOURNAME]]
-type = stcp
-sk = [sk] # token密码
-local_ip = [REMOTE_IP]  # 如果是在机器上进行了ssh转发，则这里直接改为127.0.0.1
-local_port = [PORT_ID]
-use_encryption = true
-use_compression = true
-```
-
-本地配置文件参考如下格式进行添加
-
-```sh
-[jupyterlab_[SERVER_NAME]_[YOURNAME]_visitor]
-type = stcp
-role = visitor
-server_name = jupyterlab_[SERVER_NAME]_[YOURNAME] # 这个名字需要于远程内网机器上运行的配置名一致
-sk = [sk] # token密码
-bind_addr = 127.0.0.1
-bind_port = [PORT_ID]
-use_encryption = true
-use_compression = true
-```
-
-这样frpc连接后，就可以直接浏览器`http://127.0.0.1:PORT_ID`使用jupyter lab。
-
-这种方式其实也适用于`tensorboard`等其他网页应用。
-
 
 ## Jupyter Lab 插件
 
