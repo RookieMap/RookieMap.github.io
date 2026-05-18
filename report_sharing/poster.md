@@ -1,4 +1,4 @@
-# poster
-本页面暂无内容，期待大家的共同建设\~🔥
+# Poster
 
-如果你愿意提供任何信息、资源或观点，请在下方评论区留言，网站维护者会在第一时间看到，且会酌情将其添加为本页面的内容⚡️
+
+你可以在 [Awesome-Star-Posters](https://github.com/ICT-STAR/Awesome-Star-Posters) 看到我们在各大会议上精心制作的poster，可以用来学习和参考。
